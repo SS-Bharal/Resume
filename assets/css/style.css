@@ -1165,3 +1165,68 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+/*--------------------------------------------------------------
+# Video Container Styles
+--------------------------------------------------------------*/
+.video-container {
+  position: relative;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.video-container video {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  border-radius: 8px 8px 0 0;
+}
+
+.video-container .video-caption {
+  padding: 12px 16px;
+  background: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  text-align: center;
+}
+
+.video-container .video-caption p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-container .video-caption i {
+  margin-right: 8px;
+  color: #0563bb;
+}
+
+/* Responsive video container */
+@media (max-width: 768px) {
+  .video-container {
+    margin: 15px 0;
+  }
+  
+  .video-container video {
+    max-width: 100%;
+  }
+  
+  .video-container .video-caption {
+    padding: 10px 12px;
+  }
+  
+  .video-container .video-caption p {
+    font-size: 13px;
+  }
+}

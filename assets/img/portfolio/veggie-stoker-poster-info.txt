@@ -1,0 +1,26 @@
+Veggie Stoker Poster Image Instructions
+
+File Name: veggie-stoker-poster.jpg
+Location: assets/img/portfolio/
+
+Recommended Specifications:
+- Format: JPG or PNG
+- Resolution: 1280x720 pixels (16:9 aspect ratio)
+- File size: Under 500KB for web optimization
+- Content: Screenshot or mockup of the Veggie Stoker platform
+
+Suggested Content:
+1. Main dashboard or homepage of Veggie Stoker
+2. Product listing page with vegetables/groceries
+3. Shopping cart or checkout interface
+4. Mobile-responsive design showcase
+5. Admin panel or farmer dashboard
+
+Design Tips:
+- Use high contrast for better visibility
+- Include the Veggie Stoker logo if available
+- Show modern, clean UI design
+- Highlight key features like product search, cart, etc.
+- Ensure text is readable at thumbnail size
+
+Alternative: Use a screenshot from your actual Veggie Stoker platform demo video. 
